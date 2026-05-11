@@ -1,0 +1,31 @@
+input,
+button {
+  border-radius: 6px;
+  border: none;
+  padding: 10px 14px;
+  margin: 10px;
+  font-size: 16px;
+}
+
+input::placeholder {
+  font-style: italic;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  background-color: rgb(0, 128, 255);
+  color: white;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:disabled {
+  background-color: rgb(185, 182, 182);
+  cursor: wait;
+}

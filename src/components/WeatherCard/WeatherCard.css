@@ -1,0 +1,35 @@
+.weather-card {
+  text-align: center;
+}
+
+.city-name {
+  font-size: 24px;
+  margin: 10px;
+}
+
+.temperature {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.description {
+  color: rgb(0, 115, 255);
+  letter-spacing: 1px;
+}
+
+.details {
+  /* padding: 10px; */
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.details p {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.details-txt {
+  font-size: 12px;
+}
